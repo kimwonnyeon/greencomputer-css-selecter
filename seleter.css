@@ -1,0 +1,13 @@
+/* div안에 있는 모든 선택자 선택 */
+.section p{
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* 자식 선택자 */
+.section2>p{
+    color:blue;
+}
+section p{
+    color: red;
+}
