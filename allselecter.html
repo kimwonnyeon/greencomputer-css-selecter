@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모든 선택자</title>
+    <!-- 내부 스타일 -->
+    <style>
+        /* '*':모든 선택자 */
+        *{
+            /* 보통 '*' 사용 하는 법 */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box *{
+            color: blue;
+        }
+        /* class box에 포함 되어 있는 class title */
+        .box .title{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>안녕하세요.</h1>
+    <p>반갑습니다.</p>
+    <div>풀스택 수업입니다.</div>
+    <ul>
+        <li>메뉴</li>
+        <li>메뉴</li>
+        <li>메뉴</li>
+        <li>메뉴</li>
+    </ul>
+    <div class="box">
+    <h1 class="title">안녕하세요.</h1>
+    <p>반갑습니다.</p>
+    <div>풀스택 수업입니다.</div>
+    </div>
+</body>
+</html>
